@@ -5,13 +5,13 @@
 	"name": "d2mc-utils",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"SherryTheOcto"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://x.com/SherryTheOcto",
+		"sources": "https://github.com/Yochyo/d2mc-utils"
 	},
-	"license": "CC0-1.0",
+	"license": "Apache License 2.0",
 	"icon": "assets/d2mc-utils/icon.png",
 	"environment": "*",
 	"entrypoints": {
