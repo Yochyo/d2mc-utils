@@ -3,7 +3,7 @@
 	"id": "d2mc-utils",
 	"version": "${version}",
 	"name": "d2mc-utils",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A minecraft mod that adds quality of life features to d2mc (Server IP: playd2minecraft.serv.gs) ",
 	"authors": [
 		"SherryTheOcto"
 	],
