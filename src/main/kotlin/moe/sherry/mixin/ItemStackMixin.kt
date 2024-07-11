@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable
 @Mixin(ItemStack::class)
 class ItemStackMixin {
     @Inject(at = [At("RETURN")], method = ["getTooltip(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/client/item/TooltipContext;)Ljava/util/List;"])
-    private fun getTooltipFromItem(player: PlayerEntity, context: TooltipContext, info: CallbackInfoReturnable<MutableList<Text>>){
+    private fun getTooltip(player: PlayerEntity, context: TooltipContext, info: CallbackInfoReturnable<MutableList<Text>>){
         TooltipOverlayHandler.onItemTooltip((this as ItemStack), player, context, info.returnValue)
     }
 }

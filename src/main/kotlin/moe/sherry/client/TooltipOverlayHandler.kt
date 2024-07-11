@@ -1,16 +1,10 @@
 package moe.sherry.client
 
 import moe.sherry.utils.Perks
-import net.minecraft.client.font.TextRenderer
-import net.minecraft.client.font.TextRenderer.TextLayerType
-import net.minecraft.client.gui.tooltip.TooltipComponent
 import net.minecraft.client.item.TooltipContext
-import net.minecraft.client.item.TooltipData
-import net.minecraft.client.render.VertexConsumerProvider
 import net.minecraft.entity.player.PlayerEntity
 import net.minecraft.item.ItemStack
 import net.minecraft.text.*
-import org.joml.Matrix4f
 
 object TooltipOverlayHandler {
     fun onItemTooltip(stack: ItemStack?, player: PlayerEntity?, context: TooltipContext, tooltip: MutableList<Text>?){
